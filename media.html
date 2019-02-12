@@ -1,0 +1,32 @@
+---
+title: In the Media
+layout: default
+bodyClass: page-media-list
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>In the Media</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row">
+    {% for media in site.media %}
+    <div class="col-12 col-md-6 mb-2 ">
+      <div class="media media-summary">
+        <div class="media-meta">
+          <h2 class="media-title">{{ media.title }}</h2>
+          <p class="media-name">{{ media.name }}</p>
+          <p class="media-jobtitle">{{ testimonial.jobtitle }}</p>
+        </div>
+        <div class="media-content">{{ media.content }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
