@@ -6,7 +6,7 @@ email: ''
 linkedinurl: ''
 ---
 
-* **Tal Yarkoni - Chair**
-* Candice Czech
-* Chris Holdgraf
-* Adam Hyde
+* **[Tal Yarkoni](https://talyarkoni.org/) - Chair**
+* [Candice Czech](https://ca.linkedin.com/in/candiceczech)
+* [Chris Holdgraf](https://bids.berkeley.edu/people/chris-holdgraf)
+* [Adam Hyde](https://www.adamhyde.net/)
