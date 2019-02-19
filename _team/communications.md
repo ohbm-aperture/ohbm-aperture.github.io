@@ -1,5 +1,5 @@
 ---
-title: 'Communications & Community Engagement'
+title: 'Community Engagement'
 image: '/images/team/croxson.png'
 jobtitle: ''
 email: ''
