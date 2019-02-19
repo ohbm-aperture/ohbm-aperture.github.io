@@ -1,9 +1,18 @@
 ---
-title: 'Workflows'
-image: '/images/team/sage-kirk-485982-unsplash.jpg'
+title: 'Workflows for Publishing'
+image: '/images/team/bandettini.png'
 jobtitle: ''
 email: ''
 linkedinurl: ''
 ---
 
-Here's all of the Workflows team members.
+* **Peter Bandettini - Chair**
+* Michael Breakspear
+* Christian Grefkes
+* Camille Maumet
+* Dwight Kravitz
+* Nikolaus Kriegeskorte
+* Russ Poldrack
+* Adam Thomas
+* Jessica Turner
+* Tal Yarkoni

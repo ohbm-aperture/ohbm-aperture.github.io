@@ -1,9 +1,14 @@
 ---
-title: 'Communications'
-image: '/images/team/peter-van-eijk-711986-unsplash.jpg'
+title: 'Communications & Community Engagement'
+image: '/images/team/croxson.png'
 jobtitle: ''
 email: ''
 linkedinurl: ''
 ---
 
-Here's all of the Comms team members.
+* **Paula Croxson - Chair**
+* Elizabeth DuPre
+* Souad El-Bassam
+* Felix Hoffstaedter
+* Nikola Stikov
+* Kirstie Whitaker
