@@ -8,20 +8,33 @@ bodyClass: page-team-list
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Meet The Team.</h1>
-        <p>
-          We have four core working groups dedicated to making Aperture possible.
-          These are each uniquely focused on
-          <b>community engagement</b>,
-          <b>editorial direction</b>,
-          <b>platform infrastructure</b>, or
-          <b>workflows for publishing</b>.
-        </p>
+      <h1>Meet The Team.</h1>
+      <p>
+        We have four core working groups dedicated to making Aperture possible.
+        These are each uniquely focused on
+        <strong>community engagement</strong>,
+        <strong>editorial direction</strong>,
+        <strong>platform infrastructure</strong>, or
+        <strong>workflows for publishing</strong>.
+      </p>
+      <p>
+        The chairs from each of the working groups &mdash;
+        as well as liasons to the OHBM communications committee,
+        The OHBM Publishing Initiative Committee (TOPIC),
+        and the OHBM Council &mdash; form the Aperture steering committee.
+      </p>
       </div>
+      <!-- <div class="col-4 px-0">
+      <img class="img-fluid float-right"
+      src="{{site.baseurl}}/assets/images/undraw_teaching_f1cm.png"
+      alt="undraw_teaching"
+      />
+      </div> -->
     </div>
   </div>
 </div>
 
+<!-- Working groups -->
 <div class="container pb-6">
   <div class="row">
     {% for team in site.team %}
@@ -48,5 +61,30 @@ bodyClass: page-team-list
       <p></p>
     </div>
     {% endfor %}
+  </div>
+</div>
+
+
+<!-- Steering committee -->
+<div class="container">
+  <div class="row">
+  <h2 class="team-name">External Liasons</h2>
+      {% for steering in site.steering %}
+      <div class="col-6 col-md-2 mb-1">
+      <div class="team team-summary">
+      <div class="steering-image">
+        <img
+          alt="{{ steering.title }}"
+          class="img-fluid mb-2"
+          src="{{site.baseurl}}{{ steering.image }}"
+        />
+      </div>
+      </div>
+      <div>
+        <a target="_blank" href="{{ steering.linkedinurl }}"><strong>{{ steering.title }}</strong></a>
+        <p><i>{{ steering.jobtitle }}</i></p>
+      </div>
+      </div>
+      {% endfor %}
   </div>
 </div>

@@ -10,6 +10,9 @@ collections:
   team:
     output: true
     permalink: /team/:path/
+  steering:
+    output: true
+    permalink: /steering/:path/
   # media:
   #   output: false
   #   permalink: /media/:path/
