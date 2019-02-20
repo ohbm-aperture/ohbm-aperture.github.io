@@ -1,7 +1,7 @@
-.intro {
-  // display: flex;
-  // justify-content: flex-start;
-  // align-items: center;
+.mission {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   padding-top: 150px;
   padding-bottom: 100px;
   @include media-breakpoint-up(sm) {
@@ -21,17 +21,17 @@
     font-size: 2.4rem;
     line-height: 1.2;
     font-family: $font-family-heading;
-    width: 70%;
+    // width: 70%;
     @include media-breakpoint-up(sm) {
-      width: 70%;
+      // width: 70%;
     }
     @include media-breakpoint-up(md) {
       font-size: 3rem;
-      width: 70%;
+      // width: 70%;
     }
     @include media-breakpoint-up(lg) {
       font-size: 3rem;
-      width: 50%;
+      // width: 50%;
     }
   }
   p {
@@ -41,17 +41,13 @@
     line-height: 1.4;
     color: $secondary;
     @include media-breakpoint-up(sm) {
-      width: 70%;
+      // width: 70%;
     }
     @include media-breakpoint-up(md) {
-      width: 60%;
+      // width: 60%;
     }
     @include media-breakpoint-up(lg) {
-      width: 40%;
+      // width: 40%;
     }
   }
-}
-.intro-small {
-  padding-top: 100px;
-  padding-bottom: 30px;
 }

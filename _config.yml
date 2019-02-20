@@ -13,9 +13,9 @@ collections:
   steering:
     output: true
     permalink: /steering/:path/
-  # media:
-  #   output: false
-  #   permalink: /media/:path/
+  media:
+    output: false
+    permalink: /media/:path/
 
 defaults:
   - scope:

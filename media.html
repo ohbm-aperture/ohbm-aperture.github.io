@@ -1,14 +1,14 @@
 ---
 title: In the Media
 layout: default
-bodyClass: page-media-list
+bodyClass: page-contact
 ---
 
 <div class="intro">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>In the Media</h1>
+        <h1>In the Media.</h1>
       </div>
     </div>
   </div>
@@ -20,9 +20,10 @@ bodyClass: page-media-list
     <div class="col-12 col-md-6 mb-2 ">
       <div class="media media-summary">
         <div class="media-meta">
-          <h2 class="media-title">{{ media.title }}</h2>
-          <p class="media-name">{{ media.name }}</p>
-          <p class="media-jobtitle">{{ testimonial.jobtitle }}</p>
+          <a href="{{ media.site }}" target="_blank">
+            <h2 class="media-title">{{ media.title }}</h2>
+          </a>
+          <p class="media-name">{{ media.venue }}</p>
         </div>
         <div class="media-content">{{ media.content }}</div>
       </div>

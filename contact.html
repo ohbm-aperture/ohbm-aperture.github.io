@@ -1,14 +1,18 @@
 ---
 title: Contact
 layout: default
-bodyClass: page-contact
+bodyClass: page-media-list
 ---
 
-<div class="intro intro-small">
+<div class="intro">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Contact</h1>
+        <h1>Contact Us.</h1>
+        <p>
+          Comments, questions, or concerns?
+          Reach out and let us know.
+        </p>
       </div>
     </div>
   </div>
@@ -17,12 +21,10 @@ bodyClass: page-contact
   <div class="row">
     <div class="col-12 col-md-8">
       <ul>
-        <li><strong>Phone: </strong>{{ site.data.contact.phone }}</li>
         <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
             {{ site.data.contact.email }}</a></li>
-        {% if site.data.contact.address %}
-        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
-        {% endif %}
+        <li><strong>Twitter: </strong><a href="https://twitter.com/OHBM">
+            {{ site.data.social.twitter }}</a></li>
       </ul>
     </div>
   </div>
