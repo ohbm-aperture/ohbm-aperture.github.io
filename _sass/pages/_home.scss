@@ -1,20 +1,4 @@
 .page-home {
-  background-image: url('../images/undraw_product_tour_foyt.png');
-  background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
-  @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 50% -40px;
-  }
-  @include media-breakpoint-up(md) {
-    background-size: 70%;
-    background-position: 70% -50px;
-  }
-  @include media-breakpoint-up(lg) {
-    background-size: 40%;
-    background-position: 70% -40px;
-  }
   .call {
     position: relative;
     overflow: hidden;
