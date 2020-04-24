@@ -1,5 +1,5 @@
 ---
-title: 'Editor in Chief (EIC) Call'
+title: 'Aperture Opens Up Nominations for New Editor-in-Chief'
 image: ''
 site: 'https://www.ohbmbrainmappingblog.com/blog/aperture-publishing-platform-readies-for-june-launch'
 venue: 'OHBM Blog'
