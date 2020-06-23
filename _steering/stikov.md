@@ -1,7 +1,7 @@
 ---
 title: 'Nikola Stikov'
 image: '/images/team/stikov.png'
-jobtitle: 'Communications liaison'
+jobtitle: ''
 email: ''
 linkedinurl: 'https://web.stanford.edu/~nikola/'
 ---

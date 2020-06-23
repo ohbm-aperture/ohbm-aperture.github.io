@@ -1,8 +1,4 @@
 .page-team-list {
-  background-image: url('../images/undraw_teaching_f1cm.png');
-  background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
   @include media-breakpoint-up(sm) {
     background-size: 90%;
     background-position: 159px -40px;
