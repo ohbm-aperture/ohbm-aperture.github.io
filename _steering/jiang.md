@@ -3,5 +3,5 @@ title: 'Yang Jiang'
 image: '/images/team/Yang.jpg'
 jobtitle: ''
 email: ''
-linkedinurl: ''
+linkedinurl: 'http://behavioralscience.med.uky.edu/users/yjiang'
 ---
